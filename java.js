@@ -20,7 +20,7 @@ button.addEventListener('click', function () {
     output.innerHTML = 'Please enter a password!';
     input.classList.add('invalid');
   } else if (!isLongEnough) {
-    output.innerHTML = 'Use at least 10 characters long!';
+    output.innerHTML = 'Use at least 10 characters!';
     input.classList.add('invalid');
   } else if (!hasUppercase) {
     output.innerHTML = 'Use at least one UPPERCASE letter!';
